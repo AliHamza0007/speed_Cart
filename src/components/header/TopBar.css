@@ -1,0 +1,34 @@
+.topbarColor{
+    background:
+    #0a3943
+    ;
+}
+.slectBG{
+    background:#0a3943;
+    color:white;
+    cursor:pointer;
+    border: none;
+}
+.icon{
+    text-align: center;
+    padding-left:4px;
+    color:white !important;
+
+}
+.emailIcon{
+    color:white;
+    display: flex;
+}
+.fontSize{
+    font-size: 80%;
+}
+
+
+@media screen and (min-width:768px) {
+    .icon{
+        float: right;}
+}
+@media screen and (max-width:425px) {
+       .sizeAdjust{
+display: none;    }
+}

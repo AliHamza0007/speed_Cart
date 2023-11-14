@@ -1,0 +1,29 @@
+.topCategoryHeading {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.progress {
+  height: 2px;
+}
+.font1 {
+  font-size: 1rem;
+}
+.card {
+  overflow: hidden;
+  border: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05); /* Increase the card size on hover */
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top:hover {
+  transform: scale(1.1); /* Increase the image size on hover */
+}

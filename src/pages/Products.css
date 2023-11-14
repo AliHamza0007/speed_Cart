@@ -1,0 +1,15 @@
+.font1 {
+  font-size: 1rem;
+}
+.card > img {
+  height: 20vh;
+  width: 100vw;
+}
+.cardBox {
+  padding: 10px;
+}
+@media screen and (max-width: 425px) {
+  .fontSmall06 {
+    font-size: 0.6rem;
+  }
+}

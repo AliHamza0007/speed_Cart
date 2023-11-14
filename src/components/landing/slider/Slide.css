@@ -1,0 +1,18 @@
+.carousel-item > img {
+  height: 400px;
+  filter: brightness(70%);
+}
+.carousel-item {
+  justify-content: center;
+  align-items: center;
+}
+.sliderBtn {
+  border-radius: 20px;
+  margin: 5px;
+  font-size: bold;
+  margin-bottom: 10px;
+}
+.frameStyle {
+  color: red;
+  text-transform: uppercase;
+}

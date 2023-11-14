@@ -1,0 +1,16 @@
+/* All Card Image Size */
+.card {
+  padding: 5px;
+}
+
+.card img {
+  height: 20vh;
+  width: 100vw;
+}
+.topbarColor {
+  z-index: 1;
+  background: #0a3943;
+}
+.icon {
+  cursor: pointer;
+}

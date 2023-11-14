@@ -1,0 +1,11 @@
+.footer {
+  background: #0a3943;
+  color: white;
+}
+.inputEmail {
+  border-radius: 20px;
+}
+div > h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
