@@ -59,19 +59,17 @@ const Footer = () => {
                 <img src={img2} className="img img-fluid" alt="App Store" />
               </div>
             </div>
-            <h6>Join Our NewsLetter</h6>
-            <p>
-              Will be in Accordance with{" "}
-              <span className="text-danger">Privacy Policy</span>
-            </p>
+            <p className="text-start">Join Our NewsLetter!</p>
+            Will be used in Accordance with our
+            <span className="ColorOrange"> Privacy Policy</span>
             <div className="d-flex justify-content-center align-items-center">
               <input
                 type="text"
                 placeholder="Your Email"
-                className="d-inline text-center w-100 py-2 inputEmail"
+                className="d-inline text-center w-100 py-2 inputEmail "
               />
-              <button className="btn mx-2 text-danger btn-warning px-3 inputEmail">
-                SignUp
+              <button className="btn mx-2 px-lg-5 px-md-2 px-5 BGOrange text-light   inputEmail">
+                <b>SIGNUP</b>
               </button>
             </div>
           </div>

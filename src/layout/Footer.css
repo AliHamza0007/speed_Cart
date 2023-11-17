@@ -9,3 +9,9 @@ div > h6 {
   text-transform: uppercase;
   font-weight: bold;
 }
+.BGOrange {
+  background-color: rgb(255, 72, 0) !important;
+}
+.ColorOrange {
+  color: rgb(255, 72, 0) !important;
+}

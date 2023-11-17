@@ -59,7 +59,7 @@ const Slider = () => {
             </button>
             <button
               onClick={() => navigate("/products")}
-              className="btn text-white px-3 btn-outline-primary  sliderBtn "
+              className="btn text-white border border-light px-3 btn-outline-primary  sliderBtn "
             >
               To Shop
             </button>

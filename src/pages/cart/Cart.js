@@ -18,7 +18,7 @@ const Cart = () => {
       <div className="container mt-5 py-5">
         <div className="row">
           <div className="col text-center">
-            <h4>{cart?.length} Products  in Cart</h4>
+            <h4>{cart?.length} Products in Cart</h4>
           </div>
         </div>
         <div className="row">
@@ -26,11 +26,11 @@ const Cart = () => {
             <div className="cart-items  py-2">
               {cart.map((product) => (
                 <div
-                  className="cart-item row p-2 border border-danger"
+                  className="cart-item row mb-2 p-2 border border-danger "
                   key={product.id}
                 >
                   <img
-                    className="cart-img col-md-6 col-12 "
+                    className="cart-img col-md-6 col-12 pt-3"
                     src={product.images[0]}
                     alt={product.title}
                   />
@@ -69,7 +69,7 @@ const Cart = () => {
               ))}
             </div>
           </div>
-          <div className="col-lg-4 py-3">
+          <div className="col-lg-4 py-2">
             <div className="text-center py-5 border border-primary">
               <h4 className="mb-4">Cart Summary</h4>
               <div className="d-flex px-3 justify-content-between mb-3">
