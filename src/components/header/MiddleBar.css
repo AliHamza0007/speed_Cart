@@ -1,0 +1,41 @@
+.logo {
+  width: 300px;
+}
+
+.searchBar {
+  width: 40%;
+
+  padding-left: 20px;
+  background-color: white;
+  display: flex;
+  border-radius: 30px;
+}
+
+.searchInput {
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+}
+.selectCategory {
+  float: right;
+  border: none;
+}
+.searchBtn {
+  cursor: pointer;
+  padding: 12px;
+  border: none;
+  border-bottom-right-radius: 21px;
+  border-top-right-radius: 21px;
+  float: right;
+
+  background-color: rgb(255, 72, 0) !important;
+}
+
+@media screen and (max-width: 425px) {
+  .searchBar {
+    display: none;
+  }
+  .logo {
+    width: 200px;
+  }
+}

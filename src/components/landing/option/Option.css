@@ -1,0 +1,29 @@
+.fontList {
+  color: red;
+  font-weight: bolder;
+  /* height: 100%; */
+  font-size: 2rem;
+}
+
+.fontBig {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.col-2 {
+  padding-right: 0px;
+}
+.col-10 {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .fontBig {
+    padding-left: 20px;
+    font-size: 60%;
+  }
+  .fontSmall {
+    display: none;
+  }
+}

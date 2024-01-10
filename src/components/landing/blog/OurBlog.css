@@ -1,0 +1,31 @@
+.badge-bottom {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  align-items: center;
+  transform: translateX(-50%);
+  background-color: red;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+.text-danger {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .badge-bottom {
+    font-size: 0.7em;
+    top: 27%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .badge-bottom {
+    top: 29%;
+  }
+}
+@media screen and (max-width: 325px) {
+  .badge-bottom {
+    top: 24%;
+  }
+}

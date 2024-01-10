@@ -1,0 +1,37 @@
+.progress {
+  height: 2px;
+}
+.card-title {
+  font-weight: bold;
+  text-transform: upppercase;
+}
+.font06 {
+  font-size: 0.6rem;
+}
+.card {
+  overflow: hidden;
+  border: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top:hover {
+  transform: scale(1.1);
+}
+.btn {
+  border: none;
+  color: white;
+}
+
+.imgBG1 {
+  background-image: url("https://cdn.pixabay.com/photo/2023/10/21/21/55/flowers-8332722_1280.jpg");
+  background-size: cover;
+}
