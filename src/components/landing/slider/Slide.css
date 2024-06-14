@@ -16,3 +16,12 @@
   color: red;
   text-transform: uppercase;
 }
+.carousel-item {
+  opacity: 0.5;
+  transform: scale(0.9); 
+  transition: opacity 2s ease-in-out, transform 2s ease-in-out; 
+}
+
+.carousel-item.active {
+  opacity: 1;
+  transform: scale(1); }

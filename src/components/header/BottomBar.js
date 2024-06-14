@@ -1,22 +1,26 @@
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { NavLink } from "react-router-dom";
 // import { RiArrowDropDownLine } from "react-icons/ri";
 // import { FiMenu } from "react-icons/fi";
 import "./BottomBar.css";
+import { utilsCategories } from "../../utils";
 
-const CategoryURL = "https://dummyjson.com/products/categories";
+const CategoryURL ="";
+// ="https://dummyjson.com/products/categories";
 
 const BottomBar = () => {
   const [category, setCategory] = useState([]);
 
   useEffect(() => {
+
     getCategory();
   }, []);
   const getCategory = async () => {
-    const { data } = await axios.get(`${CategoryURL}`);
-    setCategory(data);
-    // console.log(data)
+    // const { data } = await axios.get(CategoryURL);
+    // data&&setCategory(data);
+    setCategory(utilsCategories)
   };
   return (
     <div className=" bg-light border shadow-bottom">
@@ -37,13 +41,13 @@ const BottomBar = () => {
             {/* <div className="menuHide px-2">
               <FiMenu />
             </div> */}
-            <select className="text-uppercase navLink from-select-light border-0">
+            <select className="text-uppercase navLink from-select-light border-0 mx-md-10 mx-2">
               {category?.slice(0, 6).map((c, i) => (
                 <option
-                  className="text-uppercase bg-light navLink border-0"
+                  className="text-uppercase bg-light navLink border-0 fw-normal"
                   key={i}
                 >
-                  {c}
+                  {c.name}
                 </option>
               ))}
               {/* <RiArrowDropDownLine /> */}

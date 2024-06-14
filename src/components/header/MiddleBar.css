@@ -17,8 +17,12 @@
   border: none;
 }
 .selectCategory {
+  
   float: right;
   border: none;
+}
+.selectCategory:focus-visible {
+  outline: none;
 }
 .searchBtn {
   cursor: pointer;
@@ -31,7 +35,7 @@
   background-color: rgb(255, 72, 0) !important;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .searchBar {
     display: none;
   }

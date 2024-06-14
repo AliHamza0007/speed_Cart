@@ -1,15 +1,15 @@
+import { utilsProducts } from "../utils";
 import axios from "axios";
 import React, { createContext, useContext, useEffect, useState } from "react";
-const URL = "https://dummyjson.com/products";
-
+// const URL = "https://dummyjson.com/products";
 const ProductContext = createContext();
 
 const ProductProvider = ({ children }) => {
   const [products, setProducts] = useState([]);
-
   const getProduct = async () => {
-    const { data } = await axios.get(`${URL}`);
-    setProducts( data.products);
+    // const { data } = await axios.get(URL);
+    // data&&setProducts(data):
+    setProducts(utilsProducts);
   };
 
   useEffect(() => {

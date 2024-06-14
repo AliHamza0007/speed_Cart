@@ -19,7 +19,7 @@ const MiddleBar = () => {
               alt="Speed Cart"
             />
 
-            <form className="   searchBar " role="search">
+               <form className="   searchBar " role="search">
               <input
                 className="searchInput"
                 type="search"
@@ -36,6 +36,7 @@ const MiddleBar = () => {
                 <BsSearch className="searchIcon" />
               </button>
             </form>
+           
             <button
               className="navbar-toggler"
               type="button"

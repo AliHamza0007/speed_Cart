@@ -53,13 +53,13 @@ const Category = ({ name }) => {
                 />
               </Link>
 
-              <div className="card-body font1">
+              <div className="card-body ">
                 <p className="card-title ">{product.title.substring(0, 7)}</p>
                 <p className="card-text  ">{product.stock} Products</p>
                 <p className="card-text text-danger ">${product.price}</p>
                 <button
                   onClick={() => addToCart(product)}
-                  className="btn btn-warning  font1"
+                  className="btn btn-warning  font1  "
                 >
                   Add To Cart
                 </button>
