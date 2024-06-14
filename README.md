@@ -90,6 +90,5 @@ We'll review your pull request and provide feedback before merging it.
 <img src="./ShowCase/14.png"  width="19%" height="300px"  />
 <img src="./ShowCase/15.png"  width="19%" height="300px"  />
 <img src="./ShowCase/16.png"  width="19%" height="300px"  />
-<img src="./ShowCase/17.png"  width="19%" height="300px"  />
 
 </div>
