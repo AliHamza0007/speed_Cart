@@ -18,7 +18,7 @@ This project is a React.js template project designed to help you learn and exper
 
 - **State Management:** Explore various state management approaches in React, including Context API and useContext hook, to effectively manage and manipulate the application's state.
 
-- **Animation:** Incorporate animation libraries like [React Spring](https://www.react-spring.io/) to add fluid and visually appealing animations to your UI elements.
+- **Animation:** Use Custom Animation by css
 
 - **Data Fetching:** Fetch product or category data from external APIs like [DummyJSON](https://dummyjson.com/) to dynamically populate your application with content.
 
